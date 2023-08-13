@@ -270,7 +270,7 @@ img {
 }
 
 .advantages-list-item {
-   /* width: calc((100%-3*24px)/4); */
+   width: calc((100%-3*24px)/4);
 }
 
 .advantages-list-item::after {
