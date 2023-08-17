@@ -273,7 +273,6 @@ img {
 .advantages-list-item {
    /* width: calc((100% - 3 * 24px) / 4); */
    position: relative;
-   margin: 0 auto;
 }
 
 .advantages-list-item:last-child::after {
@@ -306,6 +305,7 @@ img {
    height: 40px;
    margin-bottom: 8px;
    text-transform: capitalize;
+   margin: 0 auto;
 }
 
 .advantages-text {
@@ -364,7 +364,6 @@ img {
    line-height: 1.11;
    letter-spacing: 0.02em;
    text-transform: capitalize;
-   margin-bottom: 72px;
    margin: 0 auto;
 }
 
@@ -372,6 +371,7 @@ img {
    display: flex;
    flex-wrap: wrap;
    gap: 72px;
+   margin-top: 72px;
 }
 
 .team-list-item {
