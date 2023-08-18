@@ -13,6 +13,17 @@
         max-width: 766px;
     }
 
+    /* --------------tablet hero--------- */
+
+
+    .hero-title {
+        width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 36px;
+        max-width: 496px;
+    }
+
     /* ------------tablet advantages--------- */
 
     .advantages {
@@ -85,6 +96,16 @@
         max-width: 1158px;
     }
 
+    /* --------------desctop hero--------- */
+
+    .hero-title {
+        width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 48px;
+        max-width: 496px;
+    }
+
     /* -----------desctop advantages--------- */
 
     .advantages {
@@ -109,8 +130,9 @@
     }
 
     /* --------------desctop made----- */
-
-
+    .made {
+        display: flex;
+    }
 
     /* -----------desctop team---------------- */
 
