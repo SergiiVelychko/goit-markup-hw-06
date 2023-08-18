@@ -16,6 +16,10 @@
         padding-bottom: 96px;
     }
 
+    .advantages-subtitle {
+        text-align: start;
+    }
+
     .advantages-list {
         padding: 0;
         gap: 72px 24px;
@@ -35,6 +39,8 @@
     }
 
     .team-list {
+        flex-direction: row;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 72px;
     }
@@ -61,6 +67,10 @@
         width: calc((100% - 3 * 24px) / 4);
     }
 
+    .advantages-text {
+        width: 264px;
+    }
+
     .advantages-list-item:after {
         display: block;
     }
@@ -74,11 +84,11 @@
         padding-bottom: 120px;
     }
 
-    .team-list {}
+    .team-list {
+        gap: 24px;
+    }
 
     .team-list-item {
         width: calc((100% - 3 * 24px) / 4);
     }
-
-
 }
