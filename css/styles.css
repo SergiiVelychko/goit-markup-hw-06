@@ -556,12 +556,17 @@ img {
 }
 
 .footer-container {
-   display: flex;
-   align-items: baseline;
+   display: block;
+   /* align-items: baseline; */
+   min-width: 428px;
+   min-height: 664px;
+   /* margin: 0 auto; */
 }
 
 .footer-container-logo-text {
-   margin-right: 120px;
+   margin-top: 97px;
+   margin-left: 80px;
+   margin-right: 80px;
 }
 
 .footer-logo {
@@ -574,7 +579,7 @@ img {
    text-transform: uppercase;
    background-color: var(--navyblue);
    display: inline-block;
-   margin-bottom: 16px;
+   margin: 0 auto;
 }
 
 .footer-logo-f {
@@ -588,12 +593,17 @@ img {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   font-family: Roboto;
-   font-style: normal;
+   /* font-family: Roboto;
+   font-style: normal; */
    font-weight: normal;
+   margin-top: 18px;
 }
 
-.footer-container-socials {}
+.footer-container-socials {
+   margin-top: 72px;
+   margin-right: 110px;
+   margin-left: 110px;
+}
 
 .footer-socials {
    font-weight: 500;
@@ -603,6 +613,8 @@ img {
    color: #FFFFFF;
    /* margin-right: 192px; */
    margin-bottom: 16px;
+   /* margin-left: 166px;
+   margin-right: 166px; */
 }
 
 .footer-socials-list {
@@ -613,7 +625,6 @@ img {
 .footer-socials-item {
    width: 40px;
    height: 40px;
-
 }
 
 .footer-list-link {
@@ -638,9 +649,12 @@ img {
 }
 
 .footer-bottom {
-   /* display: flex; */
-   justify-content: space-between;
-   margin-left: 80px;
+   display: block;
+   /* justify-content: space-between; */
+   /* margin-left: 80px; */
+   /* margin: 0 auto; */
+   /* align-items: center;
+   justify-content: center; */
 }
 
 .footer-subscribe {
@@ -652,18 +666,23 @@ img {
    line-height: 1.5;
    letter-spacing: 0.02em;
    margin-bottom: 16px;
+   margin-top: 72px;
+   margin-left: 176px;
+   margin-left: 177px;
+   /* align-items: center;
+   justify-content: center; */
 
 }
 
 .footer-form {
-   display: flex;
-   gap: 24px;
+   display: block;
+   /* gap: 24px; */
 }
 
 .footer-label {}
 
 .footer-input {
-   width: 264px;
+   width: 398px;
    height: 40px;
    flex-shrink: 0;
    border-radius: 4px;
@@ -677,6 +696,8 @@ img {
    padding-left: 16px;
    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
    color: #FFFFFF;
+   /* margin-left: 15px; */
+   margin-right: 15px;
 }
 
 .footer-input:placeholder {
@@ -706,10 +727,13 @@ img {
    background: var(--iris, #4D5AE5);
    width: 165px;
    height: 40px;
+   margin-top: 16px;
    /* margin-right: 159px; */
    /* margin-bottom: 132px; */
    min-width: 165px;
    cursor: pointer;
+   margin-left: 131px;
+   margin-right: 132px;
 }
 
 .footer-button-icons {
