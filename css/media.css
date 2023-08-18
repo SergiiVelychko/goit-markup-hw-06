@@ -13,6 +13,26 @@
         max-width: 766px;
     }
 
+    /* ----------------tablet header----- */
+
+    .header-container {
+        min-width: 768px;
+        min-height: 72px;
+    }
+
+    .header-logo {
+        margin-right: 120px;
+    }
+
+    .header-menu {
+        display: flex;
+    }
+
+    .header-address {
+        display: block;
+    }
+
+
     /* --------------tablet hero--------- */
 
 
@@ -95,6 +115,27 @@
     .container {
         max-width: 1158px;
     }
+
+    /* ----------------desktop header------- */
+
+    .header-container {
+        min-width: 1166px;
+        min-height: 72px;
+    }
+
+    .header-logo {
+        margin-right: 76px;
+    }
+
+    .header-menu {
+        display: flex;
+        /* margin-right: 332px; */
+    }
+
+    .header-address {
+        display: flex;
+    }
+
 
     /* --------------desctop hero--------- */
 
