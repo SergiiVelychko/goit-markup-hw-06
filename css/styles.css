@@ -473,25 +473,31 @@ img {
 /* ------------------------customers-------------------- */
 
 .customers {
-   padding-top: 120px;
-   padding-bottom: 120px;
+   padding-top: 96px;
+   padding-bottom: 96px;
 }
 
 .customers-title {
    font-size: 36px;
+   font-weight: 700;
    line-height: 1.11;
+   letter-spacing: 0.02em;
    color: #2e2f42;
    margin-bottom: 72px;
    text-align: center;
+   text-transform: capitalize;
 }
 
 .customers-list {
    display: flex;
-   gap: 24px;
+   flex-wrap: wrap;
+   flex-direction: row;
+   gap: 72px
 }
 
 .customers-list-item {
-   width: calc((100% - 120px) / 6);
+   width: calc((100% - 16px) / 2);
+   width: 190px;
    height: 88px;
 }
 

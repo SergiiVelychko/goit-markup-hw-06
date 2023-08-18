@@ -1,15 +1,19 @@
+/* -----------------------mobil----------- */
+
 @media screen and (min-width: 428px) {
     .container {
         max-width: 426px;
     }
 }
 
-/* -----------------------------tablet------------------------------- */
+/* ---------------------tablet------------------------------- */
 
 @media screen and (min-width: 768px) {
     .container {
         max-width: 766px;
     }
+
+    /* ------------tablet advantages--------- */
 
     .advantages {
         padding-top: 96px;
@@ -33,6 +37,8 @@
         width: 356px;
     }
 
+    /* ---------------tablet team------------- */
+
     .team {
         padding-top: 96px;
         padding-bottom: 96px;
@@ -50,13 +56,36 @@
     width: ((100% - 24px) / 2);
 }
 
-/* ------------------------------desctop----------------------------- */
+/* -----------------tablet customers--------- */
+
+.customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.customers-list {
+    /* display: flex;
+    flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+    gap: 72px 24px;
+}
+
+.customers-list-item {
+    width: calc((100% - 2 * 24px) / 3);
+    width: 168px;
+    height: 88px;
+}
+
+/* ---------------------desctop----------------------------- */
 
 
 @media screen and (min-width: 1166px) {
     .container {
         max-width: 1158px;
     }
+
+    /* -----------desctop advantages--------- */
 
     .advantages {
         padding-top: 120px;
@@ -79,6 +108,12 @@
         display: flex;
     }
 
+    /* --------------desctop made----- */
+
+
+
+    /* -----------desctop team---------------- */
+
     .team {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -91,4 +126,25 @@
     .team-list-item {
         width: calc((100% - 3 * 24px) / 4);
     }
+}
+
+/* ------------------desctop customers--------- */
+
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers-list {
+    /* display: flex;
+    flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+    gap: 72px 24px;
+}
+
+.customers-list-item {
+    width: calc((100% - 5 * 24px) / 6);
+    width: 168px;
+    height: 88px;
 }
