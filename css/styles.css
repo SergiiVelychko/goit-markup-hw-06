@@ -557,8 +557,8 @@ img {
 
 .footer-container {
    display: block;
-   width: 428px;
-   height: 664px;
+   /* width: 428px;
+   height: 664px; */
 }
 
 .footer-container-logo-text {
@@ -575,9 +575,9 @@ img {
    letter-spacing: 0.03em;
    text-transform: uppercase;
    background-color: var(--navyblue);
-   /* display:inline-block; */
-   display: flex;
-   justify-content: center;
+   display: inline-block;
+   /* display: flex;
+   justify-content: center; */
    margin: 0 auto;
    margin-bottom: 18px;
 }
