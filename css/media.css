@@ -108,6 +108,45 @@
     height: 88px;
 }
 
+.footer-container {
+    width: 768px;
+    height: 456px;
+    flex-shrink: 0;
+}
+
+.footer-container-logo-text {
+    margin-top: 97px;
+    margin-left: 108px;
+    margin-right: 72px;
+}
+
+.footer-logo {}
+
+.footer-text {}
+
+.footer-subscribe {}
+
+.footer-button {}
+
+/* ------------table modal---------- */
+
+.modal {}
+
+.modal-button {}
+
+.modal-title {}
+
+.modal-field {}
+
+.modal-input {}
+
+.modal-text-comment {}
+
+.modal-label {}
+
+
+
+
 /* ---------------------desctop----------------------------- */
 
 
@@ -210,4 +249,10 @@
     width: calc((100% - 5 * 24px) / 6);
     width: 168px;
     height: 88px;
+}
+
+.footer-container {
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
 }
