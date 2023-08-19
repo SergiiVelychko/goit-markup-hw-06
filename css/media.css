@@ -108,6 +108,8 @@
     height: 88px;
 }
 
+/* ------------tablet footer-----  */
+
 .footer-container {
     width: 768px;
     height: 456px;
@@ -128,7 +130,7 @@
 
 .footer-button {}
 
-/* ------------table modal---------- */
+/* ------------tablet modal---------- */
 
 .modal {}
 
