@@ -32,6 +32,16 @@
         display: block;
     }
 
+    .header-menu-humburger {
+        display: none;
+    }
+
+
+
+    .header-menu-icons {
+        display: none;
+    }
+
 
     /* --------------tablet hero--------- */
 
