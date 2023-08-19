@@ -36,8 +36,6 @@
         display: none;
     }
 
-
-
     .header-menu-icons {
         display: none;
     }
@@ -121,8 +119,8 @@
 /* ------------tablet footer-----  */
 
 .footer-container {
-    width: 768px;
-    height: 456px;
+    /* width: 768px;
+    height: 456px; */
     flex-shrink: 0;
 }
 
@@ -264,7 +262,7 @@
 }
 
 .footer-container {
-    width: 1440px;
-    height: 312px;
-    flex-shrink: 0;
+    /* width: 1440px;
+    height: 312px; */
+    /* flex-shrink: 0; */
 }
