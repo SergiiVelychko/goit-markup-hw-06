@@ -54,6 +54,11 @@
     }
 
 
+    .mob-open-button {
+        display: none;
+    }
+
+
     /* --------------tablet hero--------- */
 
     .hero {
