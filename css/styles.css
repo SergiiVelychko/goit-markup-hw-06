@@ -213,14 +213,30 @@ img {
 /* ---------------------------Hero Studio-----------------------*/
 
 .hero {
-   /* background-color: var(--navyblue); */
-   /* padding: 112px 0; */
+   /* background-color: var(--navyblue);
+   padding: 112px 0; */
+}
+
+.hero-wrap {
    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-main/img8-mob.jpg);
    width: 100%;
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
    margin: 0 auto;
+}
+
+@media (min-device-pixel-ratio:2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+   .hero-wrap {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-main/img8-mob-2x.jpg);
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 0 auto;
+   }
 }
 
 .hero-title {
