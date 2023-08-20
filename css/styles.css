@@ -65,6 +65,9 @@ ol {
 
 img {
    display: block;
+   max-width: 100%;
+   height: auto;
+   width: 100%;
 }
 
 .visually-hidden {
@@ -211,12 +214,9 @@ img {
 
 .hero {
    background-color: var(--navyblue);
-   padding: 112px 0;
-   /* background: url(/images/images-main/img8.jpg), lightgray 0px -167.766px / 100% 139.922% no-repeat; */
+   /* padding: 112px 0; */
    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-main/img8.jpg);
    width: 100%;
-   /* max-height: 600px; */
-   /* flex-shrink: 0; */
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -227,14 +227,15 @@ img {
    color: var(--white);
    width: 320px;
    text-align: center;
-   font-size: 36px;
+   /* font-size: 36px; */
+   font-size: 32px;
    line-height: 1.11;
    letter-spacing: 0.02em;
-   margin-bottom: 72px;
    display: block;
    margin: 0 auto;
    max-width: 320px;
    text-transform: capitalize;
+   padding-top: 112px;
 }
 
 .hero-button {
@@ -283,6 +284,7 @@ img {
 
 .advantages-list-item {
    /* width: calc((100% - 3 * 24px) / 4); */
+   width: 100%;
    position: relative;
    gap: 8px;
 }
@@ -402,6 +404,7 @@ img {
    background-color: var(--white);
    border-radius: 0px 0px 4px 4px;
    /* width: ((100% - 3 * 24px) / 4); */
+   width: 100%;
    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
    position: relative;
    display: flex;

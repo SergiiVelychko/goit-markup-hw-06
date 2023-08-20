@@ -4,6 +4,10 @@
     .container {
         max-width: 426px;
     }
+
+    .hero-title {
+        font-size: 36px;
+    }
 }
 
 /* ---------------------tablet------------------------------- */
@@ -285,7 +289,7 @@
 
 .footer-logo {
     display: flex;
-    align-items: start;
+
 }
 
 .footer-container-socials {
