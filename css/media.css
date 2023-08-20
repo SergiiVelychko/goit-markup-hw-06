@@ -4,10 +4,6 @@
     .container {
         max-width: 426px;
     }
-
-    .hero-title {
-        /* font-size: 36px; */
-    }
 }
 
 /* ---------------------tablet------------------------------- */
@@ -48,6 +44,9 @@
 
     /* --------------tablet hero--------- */
 
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-main/img8-tab.jpg);
+    }
 
     .hero-title {
         width: 496px;
@@ -207,6 +206,10 @@
 
 
     /* --------------desctop hero--------- */
+
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-main/img8-desctop.jpg);
+    }
 
     .hero-title {
         width: 496px;

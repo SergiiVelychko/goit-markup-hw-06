@@ -215,7 +215,7 @@ img {
 .hero {
    background-color: var(--navyblue);
    /* padding: 112px 0; */
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-main/img8.jpg);
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-main/img8-mob.jpg);
    width: 100%;
    background-repeat: no-repeat;
    background-position: center;
