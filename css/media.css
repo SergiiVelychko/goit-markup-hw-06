@@ -44,14 +44,14 @@
 
     /* --------------tablet hero--------- */
 
-    .hero-wrap {
+    .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-main/img8-tab.jpg);
     }
 
     @media (min-device-pixel-ratio:2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .hero-wrap {
+        .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-main/img8-tab-2x.jpg);
             width: 100%;
             background-repeat: no-repeat;
@@ -220,14 +220,14 @@
 
     /* --------------desctop hero--------- */
 
-    .hero-wrap {
+    .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-main/img8-desctop.jpg);
     }
 
     @media (min-device-pixel-ratio:2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .hero-wrap {
+        .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-main/img8-desctop-2x.jpg);
             width: 100%;
             background-repeat: no-repeat;
