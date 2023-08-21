@@ -13,6 +13,7 @@
         max-width: 766px;
     }
 
+
     /* ----------------tablet header----- */
 
     .header-container {
@@ -140,148 +141,153 @@
         flex-wrap: wrap;
         gap: 64px 24px;
     }
-}
 
-.team-list-item {
-    width: ((100% - 24px) / 2);
-}
 
-/* -----------------tablet customers--------- */
+    .team-list-item {
+        width: ((100% - 24px) / 2);
+    }
 
-.customers {
-    /* padding-top: 96px;
+    /* -----------------tablet customers--------- */
+
+    .customers {
+        /* padding-top: 96px;
     padding-bottom: 96px; */
-}
+    }
 
-.customers-list {
-    /* display: flex;
+    .customers-list {
+        /* display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center; */
-    /* gap: 72px 24px; */
-}
+        /* gap: 72px 24px; */
+    }
 
 
-.customers-list-link {
-    width: 168px;
-}
+    .customers-list-link {
+        width: 168px;
+    }
 
-.customers-list-item {
-    /* width: calc((100% - 2 * 24px) / 3); */
-    /* width: 168px;
+    .customers-list-item {
+        /* width: calc((100% - 2 * 24px) / 3); */
+        /* width: 168px;
     height: 88px; */
-}
+    }
 
-/* ------------tablet footer-----  */
-.footer {
-    /* width: 768px;
+    /* ------------tablet footer-----  */
+    .footer {
+        /* width: 768px;
     height: 456px; */
-    /* padding-top: 96px;
+        /* padding-top: 96px;
     padding-bottom: 96px;
     padding-left: 93px;
     text-align: start; */
-}
+    }
 
-.footer-container {
-    /* width: 584px; */
-    /* height: 486px; */
-    /* display: flex;
-    align-items: baseline;
-    flex-wrap: wrap; */
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 584px;
+        text-align: start;
 
-}
 
-.footer-container-socials {
-    /* display: flex;
+    }
+
+    .footer-container-socials {
+        /* display: flex;
     flex-direction: column;
     width: 208px;
     gap: 16;
     margin-left: 350px;
     margin-bottom: 200px; */
-    /* margin-bottom: 100px; */
-}
+        /* margin-bottom: 100px; */
+    }
 
-.footer-input {
-    /* width: 264px; */
-}
+    .footer-input {
+        width: 264px;
+    }
 
-.footer-button {
-    /* margin-right: 43px; */
-    /* margin-top: 200px; */
-}
+    .footer-button {
+        /* margin-right: 43px; */
+        /* margin-top: 200px; */
+    }
 
-.footer-container-logo-text {
-    /* width: 264px; */
-    /* margin-right: 380px; */
-}
+    .footer-container-logo-text {
+        width: 264px;
+        margin-right: 24px;
+        /* margin-right: 380px; */
+    }
 
-.footer-socials {
-    /* margin-bottom: 200px; */
-}
+    .footer-logo {}
+
+    .footer-socials {
+        /* margin-bottom: 200px; */
+    }
 
 
-.footer-form {
-    /* display: flex;
-    gap: 24px; */
-}
+    .footer-form {
+        display: flex;
+        gap: 24px;
+    }
 
-.footer-bottom {
-    /* display: block;
-    flex-direction: column;
-    align-items: center; */
-}
+    .footer-bottom {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
 
-/* .footer-subscribe {
+    /* .footer-subscribe {
     display: block;
     flex-direction: column;
     align-items: center;
 } */
 
-.footer-container {
-    /* display: flex;
+    .footer-container {
+        /* display: flex;
     flex-wrap: wrap; */
 
-    /* align-items: baseline; */
+        /* align-items: baseline; */
 
-}
+    }
 
-.left-side-footer {
-    /* margin-right: 24px; */
-}
+    .left-side-footer {
+        /* margin-right: 24px; */
+    }
 
-.footer-text {
-    /* max-width: 264px; */
-}
+    .footer-text {
+        /* max-width: 264px; */
+    }
 
-.footer-subscribe-form {
-    /* display: flex;
+    .footer-subscribe-form {
+        /* display: flex;
     gap: 24px; */
+    }
+
+    .footer-subscribe-input {
+        /* width: 264px; */
+    }
+
+    .footer-subscribe-btn {
+        /* margin-right: 43px; */
+    }
+
+    /* ------------tablet modal---------- */
+
+    .modal {}
+
+    .modal-button {}
+
+    .modal-title {}
+
+    .modal-field {}
+
+    .modal-input {}
+
+    .modal-text-comment {}
+
+    .modal-label {}
+
 }
-
-.footer-subscribe-input {
-    /* width: 264px; */
-}
-
-.footer-subscribe-btn {
-    /* margin-right: 43px; */
-}
-
-/* ------------tablet modal---------- */
-
-.modal {}
-
-.modal-button {}
-
-.modal-title {}
-
-.modal-field {}
-
-.modal-input {}
-
-.modal-text-comment {}
-
-.modal-label {}
 
 
 
@@ -447,6 +453,7 @@
 .footer-container-logo-text {
     /* display: flex;
     flex-direction: column; */
+    margin-right: 106px;
 }
 
 .footer-form {
@@ -469,4 +476,8 @@
 
 .footer-button {
     /* margin-bottom: 132px; */
+}
+
+.footer-container-socials {
+    margin-right: 96px;
 }
