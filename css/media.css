@@ -86,6 +86,10 @@
         max-width: 496px;
     }
 
+    .hero-button {
+        margin-bottom: 112px;
+    }
+
     /* ------------tablet advantages--------- */
 
     .advantages {
@@ -137,55 +141,100 @@
 }
 
 .customers-list {
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 72px 24px;
+}
+
+.customers-list {
+    /* display: flex;
+    flex-wrap: wrap; 
+     flex-direction: row;
+    justify-content: center;
+    gap: 72px 24px; */
 }
 
 .customers-list-item {
     width: calc((100% - 2 * 24px) / 3);
-    width: 168px;
-    height: 88px;
+    /* width: 168px;
+    height: 88px; */
 }
 
 /* ------------tablet footer-----  */
 .footer {
-    text-align: start;
+    /* text-align: start; */
+
 }
 
-.footer-subscribe {
+.footer-button {
+    /* margin-bottom: 354px;
+    margin-left: 420px; */
+}
+
+.footer-container-logo-text {
+    /* padding-left: 108px;
+    padding-top: 96px; */
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* width: 768px;
+    height: 456px; */
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 160px; */
+
+
+}
+
+.footer-bottom {
+    /* display: flex;
+    flex-direction: row; */
+
+}
+
+/* .footer-subscribe {
     display: block;
     flex-direction: column;
     align-items: center;
-}
+} */
 
-.footer-cotainer {
-    display: flex;
-    align-items: baseline;
-    flex-wrap: wrap;
+.footer-container {
+    /* display: flex;
+    flex-wrap: wrap; */
+
+    /* align-items: baseline; */
+
 }
 
 .left-side-footer {
-    margin-right: 24px;
+    /* margin-right: 24px; */
 }
 
 .footer-text {
-    max-width: 264px;
+    /* max-width: 264px; */
 }
 
 .footer-subscribe-form {
-    display: flex;
-    gap: 24px;
+    /* display: flex;
+    gap: 24px; */
 }
 
 .footer-subscribe-input {
-    width: 264px;
+    /* width: 264px; */
 }
 
 .footer-subscribe-btn {
-    margin-right: 43px;
+    /* margin-right: 43px; */
 }
 
 /* ------------tablet modal---------- */
@@ -318,10 +367,10 @@
 
 .customers-list {
     /* display: flex;
-    flex-wrap: wrap; */
+    flex-wrap: wrap; 
     flex-direction: row;
     justify-content: center;
-    gap: 24px;
+    gap: 24px; */
 }
 
 .customers-list-item {
@@ -332,19 +381,43 @@
 
 /* --------------desctop footer------ */
 
-.footer-cotainer {
-    flex-wrap: nowrap;
-}
-
-.left-side-footer {
+.footer-text {
+    margin-bottom: 100px;
+    /* margin-left: 156px; */
     margin-right: 120px;
 }
 
-.footer-subscribe {
-    margin-left: 80px;
-    align-items: end;
+.footer-cotainer {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer-subscribe-btn {
-    margin-right: auto;
+.footer-container-logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.footer-socials-list {
+    margin-bottom: 132px;
+    /* margin-right: 80px; */
+}
+
+.footer-label {
+    margin-bottom: 132px;
+    margin-right: 24px;
+}
+
+.footer-button {
+    margin-bottom: 132px;
 }
