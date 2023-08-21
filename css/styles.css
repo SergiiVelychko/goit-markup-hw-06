@@ -633,14 +633,6 @@ img {
 }
 
 .customers-title {
-   /* font-size: 36px;
-   font-weight: 700;
-   line-height: 1.11;
-   letter-spacing: 0.02em;
-   color: #2e2f42;
-   margin-bottom: 72px;
-   text-align: center;
-   text-transform: capitalize; */
    margin-bottom: 72px;
    font-weight: 700;
    font-size: 36px;
@@ -664,12 +656,13 @@ img {
    display: flex;
    justify-content: center;
    align-items: center;
-   color: var(--lightslate) width: 190px;
+   color: var(--lightslate);
+   width: 190px;
    height: 88px;
    border: 1px solid #8e8f99;
    border-radius: 4px;
    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   */
+
    /* transition: border-color var(--h-focus-transition),
    color var(--h-focus-transition); */
 }

@@ -149,29 +149,21 @@
 /* -----------------tablet customers--------- */
 
 .customers {
-    padding-top: 96px;
-    padding-bottom: 96px;
-}
-
-.customers-list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 72px 24px;
+    /* padding-top: 96px;
+    padding-bottom: 96px; */
 }
 
 .customers-list {
     /* display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 72px 24px; */
 }
 
 .customers-list-item {
-    width: calc((100% - 2 * 24px) / 3);
+    /* width: calc((100% - 2 * 24px) / 3); */
     /* width: 168px;
     height: 88px; */
 }
@@ -180,42 +172,42 @@
 .footer {
     /* width: 768px;
     height: 456px; */
-    padding-top: 96px;
+    /* padding-top: 96px;
     padding-bottom: 96px;
     padding-left: 93px;
-    text-align: start;
+    text-align: start; */
 }
 
 .footer-container {
-    width: 584px;
+    /* width: 584px; */
     /* height: 486px; */
-    display: flex;
+    /* display: flex;
     align-items: baseline;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 
 }
 
 .footer-container-socials {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     width: 208px;
     gap: 16;
     margin-left: 350px;
-    margin-bottom: 200px;
+    margin-bottom: 200px; */
     /* margin-bottom: 100px; */
 }
 
 .footer-input {
-    width: 264px;
+    /* width: 264px; */
 }
 
 .footer-button {
-    margin-right: 43px;
+    /* margin-right: 43px; */
     /* margin-top: 200px; */
 }
 
 .footer-container-logo-text {
-    width: 264px;
+    /* width: 264px; */
     /* margin-right: 380px; */
 }
 
@@ -225,14 +217,14 @@
 
 
 .footer-form {
-    display: flex;
-    gap: 24px;
+    /* display: flex;
+    gap: 24px; */
 }
 
 .footer-bottom {
-    display: block;
+    /* display: block;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
 }
 
 /* .footer-subscribe {
@@ -254,7 +246,7 @@
 }
 
 .footer-text {
-    max-width: 264px;
+    /* max-width: 264px; */
 }
 
 .footer-subscribe-form {
@@ -323,6 +315,8 @@
     /* --------------desctop hero--------- */
 
     .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-main/img8-desctop.jpg);
     }
 
@@ -411,8 +405,8 @@
 /* ------------------desctop customers--------- */
 
 .customers {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
 }
 
 .customers-list {
@@ -424,9 +418,9 @@
 }
 
 .customers-list-item {
-    width: calc((100% - 5 * 24px) / 6);
+    /* width: calc((100% - 5 * 24px) / 6);
     width: 168px;
-    height: 88px;
+    height: 88px; */
 }
 
 /* --------------desctop footer------ */
