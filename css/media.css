@@ -31,6 +31,7 @@
 
     .header-address {
         display: block;
+        gap: 12px;
     }
 
     .header-address-link {
@@ -226,7 +227,15 @@
 
     .header-address {
         display: flex;
+        gap: 40px;
+    }
 
+    .header-address-link {
+        color: var(--slate, #434455);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
 
 
@@ -288,6 +297,7 @@
         height: 40px;
         text-transform: capitalize;
         margin-bottom: 8px;
+        text-align: start;
     }
 
     .advantages-list-item:after {
